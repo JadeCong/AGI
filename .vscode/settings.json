@@ -26,14 +26,8 @@
         "exts/omni.isaac.app.setup",
         "exts/omni.isaac.core"
     ],
-    
     "python.languageServer": "Jedi",
     "python.defaultInterpreterPath": "${workspaceFolder}/kit/python/bin/python3",
-    // python.pythonPath is deprecated
-    // "python.pythonPath": "${workspaceFolder}/kit/python/bin/python3",
-    
-    // This enables python language server. Seems to work slightly better than jedi:
-    "python.jediEnabled": false, 
     
     // We use "black" as a formatter:
     "python.formatting.provider": "black",
@@ -42,7 +36,5 @@
     // Use flake8 for linting
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.languageServer": "Pylance",
-    "ros.distro": "humble",
-    "cmake.sourceDirectory": "/opt/Omniverse/pkg/isaac_sim-2022.2.1/exts/omni.isaac.core_archive/pip_prebundle/osqp/codegen/files_to_generate"
+    "ros.distro": "jazzy"
 }

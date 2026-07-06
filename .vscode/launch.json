@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Python: Current File",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
@@ -19,10 +19,9 @@
         },
         {
             "name": "Python: Attach (windows-x86_64/linux-x86_64)",
-            "type": "python",
+            "type": "debugpy",
             "request": "attach",
-            "port": 3000,
-            "host": "localhost"
+            "port": 3000
         },
         {
             "name": "(Linux) isaac-sim",
